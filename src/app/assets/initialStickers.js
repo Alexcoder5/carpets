@@ -8,7 +8,7 @@ export const initialData = [
         order: 0
     },
     {
-        id: 'madeWithLoveBlackSticker',
+        id: 'craftedWithCare',
         coordinates: {
             x: 0,
             y: 0

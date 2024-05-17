@@ -13,7 +13,7 @@ const SecondScreen = () => {
           <h2 className='h-[50%] uppercase font-formom text-my-yellow text-[5vw] leading-[5vw] text-center '>
             Add an original detail to your interior or make a unique gift
           </h2>
-          <p className='text-center font-thin text-my-beige w-[20vw] text-[1vw]'>
+          <p className='text-center font-thin text-my-beige w-[21vw] text-[1.1vw]'>
             We make customised tufting rugs, using your illustrations, logos and even photos or pictures from pinterest, and are open for collaborations with creators
           </p>
         </div>

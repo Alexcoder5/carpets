@@ -16,7 +16,7 @@ const helvetica = localFont({
       style: 'normal',
     },
     {
-      path: '../../public/fonts/HelveticaNeue/HelveticaNeue.woff',
+      path: '../../public/fonts/HelveticaNeue/HelveticaNeueMedium.otf',
       weight: '500',
       style: 'normal',
     },

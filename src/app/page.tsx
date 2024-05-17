@@ -3,7 +3,7 @@ import { useState } from "react";
 import { DndContext, DragEndEvent } from '@dnd-kit/core';
 import FirstScreen from "./components/FirstScreen";
 import SecondScreen from "./components/SecondScreen";
-import {initialData} from './assets/initialStickers'
+import { initialData } from './assets/initialStickers'
 import { DraggableStickerData } from "./assets/typescriptHelpers";
 import { restrictToWindowEdgesAndTopNav } from "./assets/restrictToWindowEdgesAndTopNav";
 
@@ -13,6 +13,7 @@ const moveArr = (arr: DraggableStickerData[], from: number, to: number) => {
 
 export default function Home() {
   const [draggableStickersData, setDraggableStickersData] = useState<DraggableStickerData[]>(initialData);
+  const [isStickerPositionChanged, setIsStickerPositionChanged] = useState(false)
 
   const handleOnDragEnd = ({ delta, active }: DragEndEvent) => {
     setDraggableStickersData(prevValue => {
@@ -28,7 +29,6 @@ export default function Home() {
 
       return newArr
     });
-    
   }
 
   return (
@@ -37,9 +37,11 @@ export default function Home() {
         id="dnd-context-id"
         modifiers={[restrictToWindowEdgesAndTopNav]}
         onDragEnd={handleOnDragEnd}
+        onDragMove={() => { setIsStickerPositionChanged(true) }}
       >
         <FirstScreen
           draggableStickersData={draggableStickersData}
+          isStickerPositionChanged={isStickerPositionChanged}
         />
         <SecondScreen />
       </DndContext>
