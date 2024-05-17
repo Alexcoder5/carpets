@@ -1,11 +1,11 @@
 'use client'
 import { useState } from "react";
 import { DndContext, DragEndEvent } from '@dnd-kit/core';
-import { restrictToWindowEdges } from "@dnd-kit/modifiers";
 import FirstScreen from "./components/FirstScreen";
 import SecondScreen from "./components/SecondScreen";
 import {initialData} from './assets/initialStickers'
 import { DraggableStickerData } from "./assets/typescriptHelpers";
+import { restrictToWindowEdgesAndTopNav } from "./assets/restrictToWindowEdgesAndTopNav";
 
 const moveArr = (arr: DraggableStickerData[], from: number, to: number) => {
   return arr.splice(to, 0, arr.splice(from, 1)[0]);
@@ -35,7 +35,7 @@ export default function Home() {
     <main>
       <DndContext
         id="dnd-context-id"
-        modifiers={[restrictToWindowEdges]}
+        modifiers={[restrictToWindowEdgesAndTopNav]}
         onDragEnd={handleOnDragEnd}
       >
         <FirstScreen

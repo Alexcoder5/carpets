@@ -4,7 +4,7 @@ import SecondScreenCurve from './icons/SecondScreenCurve'
 
 const SecondScreen = () => {
   return (
-    <section className='flex h-screen relative'>
+    <section className='flex h-screen relative -z-10'>
       <div className="flex-1 bg-[url('/screen_two_left.png')] w-full h-full bg-no-repeat bg-cover mb-8">
       </div>
 
