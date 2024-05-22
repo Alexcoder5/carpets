@@ -6,8 +6,8 @@ import logo from '../../../public/logo.svg'
 
 const Navigation = () => {
   return (
-    <div className='fixed top-0 z-10 pt-[1vw] w-full'>
-      <nav className='flex justify-between px-5 py-[0.5vw] font-medium bg-[#EEE9D71A]'>
+    <div className='fixed top-0 z-10 pt-[1vw] w-full px-[1vw]'>
+      <nav className='flex justify-between px-5 py-[0.3vw] font-medium bg-[#EEE9D799] rounded-full border border-[#2E2D2299] backdrop-blur-sm'>
         <ul className='flex gap-8 flex-1 items-center'>
           <li><Link className='text-sm' href='#'>Shop</Link> </li>
           <li><Link className='text-sm' href='#'>Workshops</Link> </li>

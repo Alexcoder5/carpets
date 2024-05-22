@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 import SecondScreenCurve from './icons/SecondScreenCurve'
 
@@ -10,10 +9,10 @@ const SecondScreen = () => {
 
       <div className='bg-my-black flex flex-1 items-center justify-center'>
         <div className='flex flex-1 items-center justify-center flex-col gap-[3vw]'>
-          <h2 className='h-[50%] uppercase font-formom text-my-yellow text-[5vw] leading-[5vw] text-center '>
+          <h2 className='h-[50%] uppercase font-formom text-my-yellow text-custom-heading text-center '>
             Add an original detail to your interior or make a unique gift
           </h2>
-          <p className='text-center font-thin text-my-beige w-[21vw] text-[1.1vw]'>
+          <p className='text-center font-thin text-my-beige w-[22vw] text-custom-paragraph'>
             We make customised tufting rugs, using your illustrations, logos and even photos or pictures from pinterest, and are open for collaborations with creators
           </p>
         </div>

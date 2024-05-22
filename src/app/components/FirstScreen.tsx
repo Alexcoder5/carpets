@@ -24,16 +24,17 @@ const FirstScreen = ({ draggableStickersData, isStickerPositionChanged }: Props)
       <div className='bg-my-yellow flex-1 flex justify-center items-center pt-[8%]'>
         <div className='flex flex-col justify-between items-center'>
           {/* title with svg curves */}
-          <h2 className='uppercase text-center text-my-black tracking-tighter font-formom text-8l pb-[4vw] relative'>
+          <h2 className='uppercase text-center text-my-black tracking-tighter font-formom text-heading-main pb-[4vw] relative px-[4vw]'>
             we make custom rugs
-            <Image src={curve} className='z-50 absolute bottom-[3vw] left-[9vw] w-[19vw] ' alt="sticker" />
+            <Image draggable={false} src={curve} className='absolute bottom-[3vw] left-[9vw] w-[19vw] ' alt="sticker" />
           </h2>
-          <p className='w-[25vw] text-center text-[1.5vw] pb-[4vw]'>
-            Order rug with your own design or choose from our <span className='underline font-medium'>limited collection</span>
+          <p className='w-[25vw] text-center text-custom-paragraph pb-[4vw]'>
+            Order rug with your own design <br />
+            or choose from our <span className='underline font-medium'>limited collection</span>
           </p>
           {/* order button */}
           <div className=''>
-            <button className='hover:bg-my-yellow transition-colors uppercase bg-my-beige border border-my-black text-center text-[1vw] py-[1.3vw] px-[5vw] rounded-[50%]'>
+            <button className='hover:bg-my-black hover:text-my-beige transition-colors uppercase bg-my-beige border border-my-black text-center text-custom-paragraph py-[1.3vw] px-[5vw] rounded-[50%]'>
               order rug
             </button>
           </div>

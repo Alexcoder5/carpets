@@ -18,7 +18,7 @@ const helvetica = localFont({
     {
       path: '../../public/fonts/HelveticaNeue/HelveticaNeueMedium.otf',
       weight: '500',
-      style: 'normal',
+      style: 'medium',
     },
     // {
     //   path: '../../public/fonts/HelveticaNeue/HelveticaNeueCondensedBold.ttf',
@@ -55,7 +55,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${formom.variable} ${helvetica.variable} ${helvetica.className}`}>
-          <Navigation/>
+          {/* <Navigation/> */}
           {children}
       </body>
     </html>

@@ -14,7 +14,9 @@ const config: Config = {
         'my-black': '#2E2D22',
       },
       fontSize: {
-        '8l': ['7vw', '6vw'],
+        'heading-main': ['7vw', '6.4vw'],
+        'custom-heading': ['5vw', '5vw'],
+        'custom-paragraph': ['1.2vw', '1.5vw'],
       },
       screens: {
         'tall': {
