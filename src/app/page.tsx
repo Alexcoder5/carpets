@@ -8,6 +8,8 @@ import { DraggableStickerData } from "./assets/typescriptHelpers";
 import { restrictToWindowEdgesAndTopNav } from "./assets/restrictToWindowEdgesAndTopNav";
 import ThirdScreen from "./components/ThirdScreen";
 import DesignOptions from "./components/DesignOptions";
+import InfoScreen from "./components/InfoScreen";
+import Showcase from "./components/Showcase";
 
 const moveArr = (arr: DraggableStickerData[], from: number, to: number) => {
   return arr.splice(to, 0, arr.splice(from, 1)[0]);
@@ -48,6 +50,8 @@ export default function Home() {
         <SecondScreen/>
         <ThirdScreen/>
         <DesignOptions/>
+        <InfoScreen/>
+        <Showcase/>
       </DndContext>
     </main>
   );

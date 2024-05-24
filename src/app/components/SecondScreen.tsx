@@ -8,18 +8,19 @@ const SecondScreen = () => {
       </div>
 
       <div className='bg-my-black flex flex-1 items-center justify-center'>
-        <div className='flex flex-1 items-center justify-center flex-col gap-[3vw]'>
-          <h2 className='h-[50%] uppercase font-formom text-my-yellow text-custom-heading text-center '>
-            Add an original detail to your interior or make a unique gift
+        <div className='flex flex-1 items-center justify-center flex-col gap-[3.3vw]'>
+          <h2 className='h-[50%] uppercase font-formom text-my-yellow text-custom-heading text-center tracking-[-0.04em]'>
+            Add an original detail to your interior or make a unique gift
           </h2>
-          <p className='text-center font-thin text-my-beige w-[22vw] text-custom-paragraph'>
-            We make customised tufting rugs, using your illustrations, logos and even photos or pictures from pinterest, and are open for collaborations with creators
+          <p className='text-center font-thin text-my-beige text-custom-paragraph tracking-[-0.02em]'>
+            We make customised tufting rugs, using <br />
+            your illustrations, logos and even photos <br />
+            or pictures from pinterest, and are open <br />
+            for collaborations with creators
           </p>
         </div>
       </div>
-      {/* <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 resize w-[25vw] border-2'> */}
-        <SecondScreenCurve className={'absolute bottom-0 left-1/2 transform -translate-x-1/2 resize w-[20vw]'}/>
-      {/* </div> */}
+      <SecondScreenCurve className={'absolute bottom-0 left-1/2 transform -translate-x-1/2 resize w-[21.5vw]'}/>
     </section>
   )
 }

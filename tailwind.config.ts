@@ -15,8 +15,9 @@ const config: Config = {
       },
       fontSize: {
         'heading-main': ['7vw', '6.4vw'],
-        'custom-heading': ['5vw', '5vw'],
-        'custom-paragraph': ['1.2vw', '1.5vw'],
+        'custom-heading': ['5.5vw', '5.5vw'],
+        'custom-paragraph': ['1.33vw', '1.59vw'],
+        'custom-paragraph-sm': ['1.15vw', '1.15vw'],
       },
       screens: {
         'tall': {

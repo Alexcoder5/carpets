@@ -55,7 +55,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${formom.variable} ${helvetica.variable} ${helvetica.className}`}>
-          {/* <Navigation/> */}
+          <Navigation/>
           {children}
       </body>
     </html>
