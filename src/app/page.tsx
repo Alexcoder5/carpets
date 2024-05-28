@@ -43,15 +43,15 @@ export default function Home() {
         onDragEnd={handleOnDragEnd}
         onDragMove={() => { setIsStickerPositionChanged(true) }}
       >
-        <FirstScreen
-          draggableStickersData={draggableStickersData}
-          isStickerPositionChanged={isStickerPositionChanged}
-        />
-        <SecondScreen/>
-        <ThirdScreen/>
-        <DesignOptions/>
-        <InfoScreen/>
-        <Showcase/>
+          <FirstScreen
+            draggableStickersData={draggableStickersData}
+            isStickerPositionChanged={isStickerPositionChanged}
+          />
+          <SecondScreen />
+          <ThirdScreen />
+          <DesignOptions />
+          <InfoScreen />
+          <Showcase />
       </DndContext>
     </main>
   );

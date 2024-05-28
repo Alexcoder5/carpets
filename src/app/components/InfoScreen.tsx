@@ -103,7 +103,7 @@ const InfoScreen = () => {
                 </div>
             </div>
 
-            <div className='flex flex-1 uppercase rounded-full border-my-black border bg-my-yellow text-custom-paragraph-sm justify-center items-center pt-[0.9vw] pb-[0.7vw] font-medium'>
+            <div className='flex flex-1 uppercase rounded-full border-my-black border bg-my-yellow text-custom-paragraph-sm justify-center items-center pt-[0.9vw] pb-[0.7vw] font-medium cursor-pointer'>
                 Contact us to order
             </div>
         </section>

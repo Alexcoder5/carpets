@@ -56,7 +56,3 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
-
-.parallax {
-  transform: translateZ(-6px) scale(2) rotate(-5deg);
-}

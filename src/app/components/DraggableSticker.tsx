@@ -39,7 +39,7 @@ const DraggableSticker = ({ src, draggableStickersData, id, width }: Props) => {
             <Image
                 draggable={false}
                 src={src}
-                className='z-50 absolute'
+                className='z-50 absolute w-full'
                 alt="sticker"
             />
         </div>
