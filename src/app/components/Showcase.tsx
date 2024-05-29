@@ -1,14 +1,20 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import egg from '../../../public/showcase_images/anime.png'
 import tirex from '../../../public/showcase_images/tirex.png'
 import pinkRug from '../../../public/showcase_images/pink_rug.png'
 import blackHuman from '../../../public/showcase_images/black_human.png'
 import nike from '../../../public/showcase_images/nike.png'
+import { useIntersectionObserver } from '../assets/useIntersectionObserver'
+
 
 const Showcase = () => {
+  const { isIntersecting, ref } = useIntersectionObserver({
+    // threshold: 0.5,
+  })
+  
   return (
-    <section className='bg-my-beige px-[1.6vw] '>
+    <section className='bg-my-beige px-[1.6vw]' ref={ref}>
       <div className="h-[164vw] w-full relative">
         <div className='flex flex-col gap-[0.66vw] sticky top-[6vw] left-0 flex-1 z-10'>
           <h2 className='uppercase font-formom text-my-black text-heading-main tracking-[-0.04em]'>
