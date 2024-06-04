@@ -33,11 +33,9 @@ const FirstScreen = ({ draggableStickersData, isStickerPositionChanged }: Props)
             or choose from our <span className='underline font-medium'>limited collection</span>
           </p>
           {/* order button */}
-          <div className=''>
-            <button className='hover:bg-my-black hover:text-my-beige transition-colors uppercase bg-my-beige border border-my-black text-center text-custom-paragraph-sm py-[1.6vw] px-[4.3vw] rounded-[50%]'>
-              order rug
-            </button>
-          </div>
+          <button className='hover:bg-my-black hover:text-my-beige transition-colors uppercase bg-my-beige border border-my-black text-center text-custom-paragraph-sm py-[1.6vw] px-[4.3vw] rounded-[50%]'>
+            order rug
+          </button>
         </div>
       </div>
 

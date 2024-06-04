@@ -10,6 +10,9 @@ import ThirdScreen from "./components/ThirdScreen";
 import DesignOptions from "./components/DesignOptions";
 import InfoScreen from "./components/InfoScreen";
 import Showcase from "./components/Showcase";
+import ShowcaseParallax from "./components/ShowcaseParallsx";
+import { ParallaxProvider } from "react-scroll-parallax";
+import DiscoverTufting from "./components/DiscoverTufting";
 
 const moveArr = (arr: DraggableStickerData[], from: number, to: number) => {
   return arr.splice(to, 0, arr.splice(from, 1)[0]);
@@ -37,6 +40,7 @@ export default function Home() {
 
   return (
     <main>
+      <ParallaxProvider>
       <DndContext
         id="dnd-context-id"
         modifiers={[restrictToWindowEdgesAndTopNav]}
@@ -51,8 +55,11 @@ export default function Home() {
           <ThirdScreen />
           <DesignOptions />
           <InfoScreen />
-          <Showcase />
+          {/* <Showcase /> */}
+          <ShowcaseParallax />
+          <DiscoverTufting />
       </DndContext>
+      </ParallaxProvider>
     </main>
   );
 }
