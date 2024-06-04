@@ -1,12 +1,12 @@
 import React from 'react'
-import smile from '../../../public/stickers/smile.svg'
+import smile from '/public/stickers/smile.svg'
 import Image from 'next/image'
 import Card from './Card'
 // images
-import pickle from '../../../public/card_images/pickle.png'
-import flowerPower from '../../../public/card_images/flower_power.png'
-import carrotSmile from '../../../public/card_images/carrot_smile.png'
-import selfLove from '../../../public/card_images/self_love.png'
+import pickle from '/public/card_images/pickle.png'
+import flowerPower from '/public/card_images/flower_power.png'
+import carrotSmile from '/public/card_images/carrot_smile.png'
+import selfLove from '/public/card_images/self_love.png'
 
 
 

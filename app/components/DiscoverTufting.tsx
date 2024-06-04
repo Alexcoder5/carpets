@@ -1,9 +1,9 @@
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 
-import cat from '../../../public/discover_tufting/cat.png'
-import egg from '../../../public/discover_tufting/egg.png'
-import kids from '../../../public/discover_tufting/kids.png'
+import cat from '/public/discover_tufting/cat.png'
+import egg from '/public/discover_tufting/egg.png'
+import kids from '/public/discover_tufting/kids.png'
 
 const DiscoverTufting = () => {
   return (

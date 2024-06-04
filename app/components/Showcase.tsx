@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import egg from '../../../public/showcase_images/anime.png'
-import tirex from '../../../public/showcase_images/tirex.png'
-import pinkRug from '../../../public/showcase_images/pink_rug.png'
-import blackHuman from '../../../public/showcase_images/black_human.png'
-import nike from '../../../public/showcase_images/nike.png'
+import egg from '/public/showcase_images/anime.png'
+import tirex from '/public/showcase_images/tirex.png'
+import pinkRug from '/public/showcase_images/pink_rug.png'
+import blackHuman from '/public/showcase_images/black_human.png'
+import nike from '/public/showcase_images/nike.png'
 import { useIntersectionObserver } from '../assets/useIntersectionObserver'
 
 

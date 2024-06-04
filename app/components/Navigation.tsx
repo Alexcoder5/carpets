@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
-import logo from '../../../public/logo.svg'
+import logo from '/public/logo.svg'
 
 const Navigation = () => {
   return (

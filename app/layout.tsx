@@ -11,17 +11,17 @@ export const metadata: Metadata = {
 const helvetica = localFont({
   src: [
     {
-      path: '../../public/fonts/HelveticaNeue/HelveticaNeue-Regular.otf',
+      path: '../public/fonts/HelveticaNeue/HelveticaNeue-Regular.otf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/HelveticaNeue/HelveticaNeueMedium.otf',
+      path: '../public/fonts/HelveticaNeue/HelveticaNeueMedium.otf',
       weight: '500',
       style: 'medium',
     },
     // {
-    //   path: '../../public/fonts/HelveticaNeue/HelveticaNeueCondensedBold.ttf',
+    //   path: '../public/fonts/HelveticaNeue/HelveticaNeueCondensedBold.ttf',
     //   weight: '700',
     //   style: 'bold',
     // },
@@ -32,12 +32,12 @@ const helvetica = localFont({
 const formom = localFont({
   src: [
     {
-      path: '../../public/fonts/Formom/zt-formom.woff',
+      path: '../public/fonts/Formom/zt-formom.woff',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/Formom/zt-formom-italic.woff',
+      path: '../public/fonts/Formom/zt-formom-italic.woff',
       weight: '400',
       style: 'italic',
     },
