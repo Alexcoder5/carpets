@@ -13,6 +13,7 @@ import Showcase from "./components/Showcase";
 import ShowcaseParallax from "./components/ShowcaseParallsx";
 import { ParallaxProvider } from "react-scroll-parallax";
 import DiscoverTufting from "./components/DiscoverTufting";
+import Footer from "./components/Footer";
 
 const moveArr = (arr: DraggableStickerData[], from: number, to: number) => {
   return arr.splice(to, 0, arr.splice(from, 1)[0]);
@@ -58,6 +59,7 @@ export default function Home() {
           {/* <Showcase /> */}
           <ShowcaseParallax />
           <DiscoverTufting />
+          <Footer />
       </DndContext>
       </ParallaxProvider>
     </main>

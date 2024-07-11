@@ -12,7 +12,7 @@ import selfLove from '/public/card_images/self_love.png'
 
 const ThirdScreen = () => {
   return (
-    <section className='bg-my-beige py-[10vw] px-[1.6vw]'>
+    <section id='third_screen' className='bg-my-beige py-[10vw] px-[1.6vw]'>
         <div className="flex justify-between pb-[5.3vw]">
             <div className='flex-1'>
                 <h2 className='uppercase font-formom text-my-black text-heading-main tracking-[-0.04em]'>

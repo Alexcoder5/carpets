@@ -30,10 +30,10 @@ const InfoScreen = () => {
                 </div>
 
                 <div className='flex-1 bg-my-black justify-between flex flex-col p-[1.6vw]'>
-                    <div className='flex'>
+                    <div className='flex mt-[-40px]'>
                         <h2 
                             className='text-custom-heading text-my-yellow uppercase font-formom tracking-[-0.04em]'
-                            style={{fontSize: range+'vw', paddingTop: (Number(range) - 5.5)+'%'}}
+                            style={{fontSize: range+'vw', paddingTop: (Number(range))+'%'}}
                         >
                             Price
                         </h2>

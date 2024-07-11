@@ -32,10 +32,10 @@ const ShowcaseParallax = () => {
           </p>
         </div>
         <div>
-            <Parallax speed={0} className='w-[24vw] absolute top-[22vw] left-[0]'>
+            <Parallax speed={15} className='w-[24vw] absolute top-[18vw] left-[0]'>
                 <Image draggable={false} src={tirex} className='w-full' alt="sticker" />
             </Parallax>
-            <Parallax speed={0} className='w-[16vw] absolute top-[34vw] left-[32vw]'>
+            <Parallax speed={-10} className='w-[16vw] absolute top-[38vw] left-[32vw]'>
                 <Image draggable={false} src={pinkRug} className='w-full' alt="sticker" />
             </Parallax>
             <Parallax speed={0} className='w-[42vw] absolute top-[14.6vw] right-[-1.6vw]'>
