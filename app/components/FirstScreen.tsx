@@ -10,6 +10,7 @@ import curve from '/public/curves/first_screen_custom.svg'
 import dragMe from '/public/curves/drag_me.svg'
 import DraggableSticker from './DraggableSticker'
 import { DraggableStickerData } from '../assets/typescriptHelpers'
+import Link from 'next/link'
 
 interface Props {
   draggableStickersData: DraggableStickerData[]
@@ -28,10 +29,13 @@ const FirstScreen = ({ draggableStickersData, isStickerPositionChanged }: Props)
             we make custom rugs
             <Image draggable={false} src={curve} className='absolute bottom-[2.5vw] left-[9vw] w-[19vw] ' alt="sticker" />
           </h2>
-          <p className='w-[23.3vw] text-center text-custom-paragraph pb-[5.25vw] tracking-[-0.01em]'>
+          <Link 
+            className='w-[23.3vw] text-center text-custom-paragraph pb-[5.25vw] tracking-[-0.01em]'
+            href="#third_screen"
+          >
             Order rug with your own design <br />
             or choose from our <span className='underline font-medium'>limited collection</span>
-          </p>
+          </Link>
           {/* order button */}
           <button className='hover:bg-my-black hover:text-my-beige transition-colors uppercase bg-my-beige border border-my-black text-center text-custom-paragraph-sm py-[1.6vw] px-[4.3vw] rounded-[50%]'>
             order rug

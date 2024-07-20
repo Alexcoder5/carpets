@@ -7,7 +7,7 @@ import kids from '/public/discover_tufting/kids.png'
 
 const DiscoverTufting = () => {
   return (
-    <section className='px-[1.6vw] bg-my-beige pt-[10vw]'>
+    <section id='workshop' className='px-[1.6vw] bg-my-beige pt-[10vw]' style={{scrollMarginTop: '-4vw'}}>
         <h2 className='uppercase font-formom text-my-black text-custom-heading tracking-[-0.04em] mb-[2.66vw]'>
         Discover the world of tufting <br />
         and create a beautiful and <br />
@@ -68,7 +68,7 @@ export const Card = ({ num, heading, image, body }: Card) => {
         <div className='flex flex-col bg-my-black text-my-beige flex-1 p-[1.66vw]'>
             <p className='bg-my-yellow rounded-full text-[1.66vw] h-[3.33vw] w-[3.33vw] mb-[1.33vw] flex justify-center items-center relative text-my-black'>{num}</p>
             <p className='font-formom text-[2vw] mb-[1.33vw] text-my-beige'>{heading}</p>
-            <Image draggable={false} src={image} className='w-[17.8vw] mb-[5vw]' alt="sticker" />
+            <Image draggable={false} src={image} className='w-[17.8vw] mb-[1.83vw]' alt="sticker" />
             <p className='text-custom-paragraph text-my-beige tracking-[-0.02em] opacity-50 flex flex-1 items-end'>{body}</p>
         </div>
     )

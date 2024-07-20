@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const DesignOptions = () => {
     return (
-        <section className='bg-my-beige pt-[11vw] pb-[6vw] relative'>
+        <section id='about' className='bg-my-beige pt-[11vw] pb-[6vw] relative' style={{scrollMarginTop: '11vw'}}>
             <Image src={gun} className='absolute top-[3%] right-[17%] w-[16vw]' alt="sticker"/>
             <Image src={scissors} className='absolute bottom-[3%] right-[8%] w-[16vw]' alt="sticker"/>
             <div className='flex flex-1 items-center justify-center flex-col gap-[2vw] relative'>
