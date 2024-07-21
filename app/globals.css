@@ -11,9 +11,6 @@ body {
   color: #2E2D22;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 /* dashed card */
 .dashed-border {

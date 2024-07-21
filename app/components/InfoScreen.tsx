@@ -8,7 +8,7 @@ const InfoScreen = () => {
     }
 
     return (
-        <section id='info' className='py-[10vw] bg-my-beige px-[1.6vw]' style={{scrollMarginTop: '-4vw'}}>
+        <section id='info' className='py-[10vw] bg-my-beige px-[1.6vw]'>
             <div className='flex gap-[0.66vw] h-[24.2vw] mb-[0.66vw]'>
                 <div className='flex-1 bg-my-black p-[1.6vw] flex flex-col justify-between'>
                     <div className='flex gap-[5.2vw]'>
@@ -33,7 +33,12 @@ const InfoScreen = () => {
                     <div className='flex gap-[5.2vw]'>
                         <h2 
                             className='text-custom-heading uppercase font-formom text-my-yellow w-[17.2vw] tracking-[-0.04em]'
-                            style={{fontSize: range+'vw', }}
+                            style={{
+                                fontSize: range+'vw', 
+                                paddingTop: ((Number(range)))+'%',
+                                position: 'relative',
+                                top: '-2.6vw'
+                            }}
                         >
                             Price
                         </h2>
